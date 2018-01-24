@@ -1,0 +1,161 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+#wrapper{
+  background-color: #f6f6f6;
+  width: 1000px;
+  height: 1250px;
+}
+#header{
+  width: 1000px;
+  height: 100px;
+}
+#header h1{
+  text-align: left;
+  width: 500px;
+  padding: 20px;
+  display: inline-block;
+}
+#header h2{
+  text-align: right;
+  width: 500px;
+  padding: 20px;
+  display: inline;
+}
+#main{
+  background-color: #6f5963;
+  width: 1000px;
+  height: 1000px;
+}
+#footer{
+  width: 1000px;
+  text-align: center;
+}
+#contactme{
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+#social{
+  width: 1000px;
+  text-align: center;
+}
+#social img{
+  display: inline-block;
+}
+#social p{
+  display: inline-block;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 14pt;
+}
+#long img{
+  display: inline-block;
+  border: 5px solid silver;
+  margin: 10px;
+
+}
+#long{
+  text-align: center;
+  padding: 10px 10px 8px 10px;
+}
+
+#bio{
+  height: 275px;
+  width: 500px;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: justify;
+  float: right;
+}
+#bio h3{
+  background: linear-gradient(silver, #95939d,silver);
+  height: 50px;
+  margin-top: 0px;
+  text-align:left;
+  padding: 15px 0px 0px 15px;
+  color: white;
+
+}
+span{
+  text-decoration: underline;
+}
+
+.project{
+  width: 300px;
+  height: 650px;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+
+}
+.project h3{
+  background: linear-gradient(silver, #95939d,silver);
+  height: 40px;
+  margin-top: 0px;
+  text-align:left;
+  padding: 10px 0px 0px 10px;
+  color: white;
+
+}
+.project img{
+  width: 300px;
+  margin-top: -20px;
+}
+.project h4{
+  background: linear-gradient(silver, #95939d,silver);
+  height: 40px;
+  margin-top: 0px;
+  text-align:left;
+  padding: 15px 0px 0px 15px;
+  color: white;
+}
+.project p{
+  width: 260px;
+  text-align: justify;
+  margin: auto;
+  padding-top: 5px;
+  height: 200px;
+  font-size: 12pt
+}
+button{
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  border: black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  align-items: center;
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin: 5px;
+  position: relative;
+  left: 90px;
+}
+.button{
+  height: 40px;
+  width: 60px;
+  align-items: center;
+  display: block;
+
+
+}
+.row img{
+  width: 45px;
+  height: 45px;
+  margin: -20px 5px 5px 5px;
+  display: inline;
+  text-align: left;
+
+
+}
+.row-bottom img{
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  display: inline;
+}
